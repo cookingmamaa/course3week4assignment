@@ -10,3 +10,4 @@ Transformation + Work done for run_analysis.r
 8) Imported the activity_labels.txt file and renamed the activity column in the data frame to have proper descriptions match the respective values for these descriptions
 9) Renamed multiple columns in the data frame to be slightly more descriptive
 10) Created a tidy data set by using the gather() function to put all the metrics into one column to then calculate the mean value based on grouping of subject, activity, and metrics
+11) Extracted this tidy data set with write.table() and named it "tidydata.txt"
